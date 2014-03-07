@@ -1,0 +1,79 @@
+.clearfix:after {
+  content: " ";
+  /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both; }
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background: #3498db;
+  -webkit-transition: all 0.2s; }
+
+.countdown {
+  text-align: center; }
+
+.seconds {
+  font-size: 350px;
+  color: white;
+  text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.05);
+  -webkit-transition: all 0.3s; }
+
+.buttons div {
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  float: left;
+  margin: 20px;
+  border-radius: 50%;
+  box-shadow: 1px 7px 15px rgba(0, 0, 0, 0.35), inset 3px 0 2px rgba(255, 255, 255, 0.4), inset 0 3px 0px rgba(255, 255, 255, 0.5), inset -2px -3px 0px rgba(24, 23, 22, 0.6);
+  text-align: center;
+  padding: 25px;
+  color: white; }
+
+input {
+  border: none;
+  width: 400px;
+  height: 50px;
+  margin: 40px;
+  display: block;
+  clear: both;
+  margin: 0 auto;
+  background: #bdc3c7;
+  color: black;
+  font-size: 20px; }
+
+label {
+  clear: both; }
+
+.clearClock {
+  background: #c0392b;
+  color: white; }
+
+.mirrorClock {
+  background: #f1c40f;
+  color: white; }
+
+h1 {
+  text-align: center;
+  color: white; }
+
+.buttons {
+  width: 58%;
+  margin: 0 auto;
+  text-align: center; }
+
+.fifteen {
+  background: #2ecc71; }
+
+.lunchBreak {
+  background: #9b59b6; }
+
+.afternoonBreak {
+  background: #e67e22; }
+
+.flipscreen {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg); }
