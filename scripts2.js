@@ -86,7 +86,7 @@ $(function(){
 	});
 
 	$(".mirrorClock").on("click", function(){
-		$("html").toggleClass("flipscreen");
+		$(".countdown").toggleClass("flipscreen");
 	});
 
 }); //end doc ready
